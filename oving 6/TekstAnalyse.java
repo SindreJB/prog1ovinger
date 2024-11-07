@@ -10,7 +10,7 @@ public class TekstAnalyse {
     }
 
     public void antallTegn() {
-        Map<String, Integer> characterCount = new HashMap<>();
+        Map<String, Integer> characterCount = new HashMap<>(); 
 
         int totalCharacters = userInput.length();
         if (totalCharacters == 0) { 
